@@ -14,7 +14,6 @@ body{
 }
 .top-text{
     width: 485px;
-    height: 230px;
    padding: 51px;
 }
 .top-image{
@@ -35,10 +34,10 @@ body{
 }
 .button:hover{
     font-size: 2em;
-    
+    transition: 1s;
+    transition-delay: .25s;
 }
 .container{
-   
     display: flex;
     justify-content:center;
     align-items: center;
@@ -51,25 +50,21 @@ body{
 width: 330px;
 }
 .players-info{
-    
     width: 330px;
     margin: 15px;
     border: .25px solid white;
     padding: 15px;
-    
     background-color: white;
 }
 .part-2{
     margin-top: 20px;
 }
 .football-item{
-    
     margin-top: 117px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-   
 }
 .football-item p{
     text-align: center;
