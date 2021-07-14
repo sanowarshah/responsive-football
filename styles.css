@@ -62,7 +62,11 @@ width: 330px;
 .football-item .footer-item img{
     width: 484px;
 }
-.football .icon-item icons{
+.football-item .footer-item .icon{
     width: 170px;
     height: 32px;
+    margin-left: 25px;
+}
+.footer-text{
+    margin-bottom: 30px;
 }
