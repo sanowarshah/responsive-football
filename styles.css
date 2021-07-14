@@ -5,29 +5,34 @@ body{
     background-color: rgba(222, 233, 231, 0.952);
 }
 .top-info{
-    width: 100%;
+   padding-left: 27px;
     height: 795px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #2D25A0;
+}
+.top-text{
+    width: 485px;
+    height: 230px;
+   padding: 51px;
+}
+.top-image{
+    width: 556.01px;
+    height: 438px;
+   padding: 51px;
+}
+.text{
     font-weight: 700;
-    size: 64px;
+    font-size: 64px;
     color: white;
 }
-
-
 .container{
    
     display: flex;
     justify-content:center;
     align-items: center;
     margin-top: 70px;
-  
-    
-    
-   
-
 }
 .top-info .top-image img{
     width: 556px;
