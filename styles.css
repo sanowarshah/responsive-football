@@ -48,8 +48,21 @@ width: 330px;
     margin-top: 20px;
 }
 .football-item{
+    
+    margin-top: 117px;
     display: flex;
     justify-content: center;
-    background-color: rgba(222, 233, 231, 0.952);
-    
+    align-items: center;
+    flex-direction: column;
+   
+}
+.football-item p{
+    text-align: center;
+}
+.football-item .footer-item img{
+    width: 484px;
+}
+.football .icon-item icons{
+    width: 170px;
+    height: 32px;
 }
